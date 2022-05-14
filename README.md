@@ -1,6 +1,6 @@
 # React To Do
 
-[Live Demo](https://react-todo-flawn.vercel.app/)
+### [Live Demo](https://react-todo-flawn.vercel.app/)
 
 ![todo_screenshot](https://user-images.githubusercontent.com/17219339/168440117-bb538878-0d21-434c-aeac-7702134a9e27.png)
 
