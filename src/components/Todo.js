@@ -7,8 +7,7 @@ const Todo = ({ todo, toggleComplete, deleteTodo }) => {
       onClick={(event) => toggleComplete(todo)}
       onContextMenu={(event) => deleteTodo(event, todo)}
     >
-      {todo.checked && <>🔹</>}
-      {todo.text}
+      <p className={todo.checked ? "checked" : ""}>{todo.text}</p>
     </div>
   );
 };

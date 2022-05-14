@@ -49,9 +49,14 @@
   border-radius: 1rem;
   transition: background-color 0.3s;
   word-break: break-all;
+  user-select: none;
 }
 
 .todo:hover {
   background-color: #82dbd8;
   cursor: pointer;
+}
+
+.todo > .checked {
+  text-decoration: line-through;
 }
