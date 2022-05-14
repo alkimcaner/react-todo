@@ -1,38 +1,57 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  background-color: #2f8f9d;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  font-size: 128px;
+  color: #b3e8e5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description {
+  color: rgb(34, 34, 34);
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.input {
+  background-color: transparent;
+  border-radius: 1rem;
+  outline: none;
+  height: 4rem;
+  text-align: center;
+  color: rgb(34, 34, 34);
+  border: 2px solid #b3e8e5;
+  font-size: 22px;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  max-width: 32rem;
+}
+
+.todo {
+  color: rgb(34, 34, 34);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  font-size: x-large;
+  background-color: #3bacb6;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  transition: background-color 0.3s;
+  word-break: break-all;
+}
+
+.todo:hover {
+  background-color: #82dbd8;
+  cursor: pointer;
 }
